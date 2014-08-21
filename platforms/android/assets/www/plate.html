@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<!--
+    Licensed to the Apache Software Foundation (ASF) under one
+    or more contributor license agreements.  See the NOTICE file
+    distributed with this work for additional information
+    regarding copyright ownership.  The ASF licenses this file
+    to you under the Apache License, Version 2.0 (the
+    "License"); you may not use this file except in compliance
+    with the License.  You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing,
+    software distributed under the License is distributed on an
+    "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+     KIND, either express or implied.  See the License for the
+    specific language governing permissions and limitations
+    under the License.
+-->
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, user-scalable=no">
+        <meta charset="utf-8" />
+        <meta name="format-detection" content="telephone=no" />
+        <!-- WARNING: for iOS 7, remove the width=device-width and height=device-height attributes. See https://issues.apache.org/jira/browse/CB-4323 -->
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
+        <link rel="stylesheet" type="text/css" href="css/index.css" />
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+        <meta name="msapplication-tap-highlight" content="no" />
+        <title>Barbell Utility</title>
+        <div class="center">
+        <ul class="nav nav-pills">
+          <li class="navPadding"><a href="index.html">Max</a></li>
+            <li class="logoPadding"><img class="logo" src="icon.png"></li>
+          <li class="navPadding active"><a href="plate.html">Plate</a></li>
+        </ul>
+            </div>
+    </head>
+    <body>
+        <div class="container">
+            <h3 class="textCenter">Plate Calculator</h3>
+            <p class="textCenter">Plate Calculator tells you what plates you need on each side of the bar in order to make a weight.</p>
+            <form role="form">
+          <div class="form-group">
+            <input type="number" class="form-control" id="plateWeight" placeholder="Weight">
+          </div>
+          
+          <button type="button" id="plateCalc" class="btn btn-primary btn-lg btn-block">Calculate</button>
+        </form>
+            
+        <div id="plateResults" class="textCenter">
+        
+        </div>
+        </div>
+        
+      
+        <script src="http://ads.mopub.com/js/client/mopub.js"></script> 
+
+        <script type="text/javascript" src="cordova.js"></script>
+        <script src="js/jquery-1.11.1.min.js"></script>
+        <script type="text/javascript" src="js/plateCalc.js"></script>
+      
+    </body>
+</html>
