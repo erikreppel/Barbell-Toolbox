@@ -1,11 +1,11 @@
 //declare global variables
 var weight = 0;
-var ff = 0;
-var tf = 0;
-var twf = 0;
-var ten = 0;
-var five = 0;
-var two = 0;
+var ff = 0; //fortyfive
+var tf = 0; //thirtyfive
+var twf = 0; //twentyfive
+var ten = 0; //ten
+var five = 0; //five
+var two = 0; //two point five
 
 $("#plateCalc").click(function(){ //onclick execute
         
@@ -14,18 +14,18 @@ $("#plateCalc").click(function(){ //onclick execute
         $("#plateResults").empty(); //clear results div so that data doesnt pile up in div
         weight = ($("#plateWeight").val() - 45) / 2; //calculate the weight on each side of the barbell
         
-        if(weight < 0){
+        if(weight < 0){ //if the weight on each side of the barbell is negative(total weight less than 45, toast)
          window.plugins.toast.showLongCenter("Try a dowel, do you even lift");
 
-        }else{
+        }else{//if weight on each side is more than 0, calculate results
         console.log("weight each side: " + weight);
         
-        ff = Math.floor(weight / 45);
+        ff = Math.floor(weight / 45); //divides the weight by 45 to see how many 45lb plates are needed on each side
         console.log("Number of 45's " + ff);
-        var left = weight % 45;
-        weight = left;
+        var left = weight % 45; //var left keeps track of the weight still left to be assigned to plates. 
+        weight = left; //assigns the left over value to the global var weight
         console.log(left);
-    
+    //this same procedure happens for each of the remaining plate types with the weight var being lessened each time
         tf = Math.floor(weight / 35);
         console.log("Number of 35's " + tf);
         left = weight % 35;
