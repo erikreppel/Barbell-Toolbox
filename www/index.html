@@ -1,0 +1,43 @@
+<!-- WARNING: for iOS 7, remove the width=device-width and height=device-height attributes. See https://issues.apache.org/jira/browse/CB-4323 -->
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
+        <link rel="stylesheet" type="text/css" href="css/index.css" />
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+        <meta name="msapplication-tap-highlight" content="no" />
+        <title>Barbell Toolbox</title>
+        <div class="center">
+        <ul class="nav nav-pills">
+          <li class="navPadding active"><a href="index.html">Max</a></li>
+            <li class="logoPadding"><img class="logo" src="icon.png"></li>
+          <li class="navPadding"><a href="plate.html">Plate</a></li>
+        </ul>
+            </div>
+    </head>
+    <body>
+        <div class="container">
+        <h3 class="textCenter">Max Calculator</h3>
+        <p class="textCenter">Max Calculator predicts what your one rep max would be based on how many reps you can get with a certain weight.</p>
+        <form role="form">
+          <div class="form-group">
+            <label for="maxWeight">Weight</label>
+            <input type="number" class="form-control" id="maxWeight" placeholder="Weight">
+          </div>
+          <div class="form-group">
+            <label for="reps">Reps</label>
+            <input type="number" class="form-control" id="reps" placeholder="Reps">
+          </div>
+
+
+          <button type="button" id="maxCalc" class="btn btn-primary btn-lg btn-block">Calculate</button>
+        </form>
+        <div class="textCenter navPadding" id="maxResults"></div>
+        </div>
+        
+        <div class="ad">
+        
+        </div>
+        <script type="text/javascript" src="cordova.js"></script>
+        <script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
+        <script type="text/javascript" src="js/index.js"></script>
+      
+    </body>
+</html>
