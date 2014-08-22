@@ -12,6 +12,7 @@ html {
 }
 body {
   margin: 0;
+    height: 100%;
 }
 article,
 aside,
@@ -235,7 +236,10 @@ th {
     background: #fff !important;
   }
   .navbar {
-    display: none;
+    display: inline-block;
+    float: none;
+    margin-left: auto;
+      margin-right: auto;
   }
   .table td,
   .table th {
@@ -276,8 +280,8 @@ body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 14px;
   line-height: 1.42857143;
-  color: #333;
-  background-color: #fff;
+  color: #E3E3E3;
+  background-color: #292929;
 }
 input,
 button,
@@ -3451,6 +3455,8 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   padding-left: 0;
   margin-bottom: 0;
   list-style: none;
+  text-align: center;
+    display: inline-block;
 }
 .nav > li {
   position: relative;
@@ -3561,7 +3567,11 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   }
 }
 .nav-pills > li {
-  float: left;
+  float: none;
+    text-align: center;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
 }
 .nav-pills > li > a {
   border-radius: 4px;
