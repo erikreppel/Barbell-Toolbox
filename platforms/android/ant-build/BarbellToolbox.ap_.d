@@ -29,6 +29,8 @@ c:\Users\Erik\Dev\Projects\BarbellToolbox\platforms\android\ant-build\res\drawab
 c:\Users\Erik\Dev\Projects\BarbellToolbox\platforms\android\ant-build\res\drawable-xhdpi\icon.png \
 c:\Users\Erik\Dev\Projects\BarbellToolbox\platforms\android\assets\www \
 c:\Users\Erik\Dev\Projects\BarbellToolbox\platforms\android\assets\_where-is-www.txt \
+c:\Users\Erik\Dev\Projects\BarbellToolbox\platforms\android\assets\www\bootstrap.css \
+c:\Users\Erik\Dev\Projects\BarbellToolbox\platforms\android\assets\www\bootstrap.min.css \
 c:\Users\Erik\Dev\Projects\BarbellToolbox\platforms\android\assets\www\config.xml \
 c:\Users\Erik\Dev\Projects\BarbellToolbox\platforms\android\assets\www\cordova.js \
 c:\Users\Erik\Dev\Projects\BarbellToolbox\platforms\android\assets\www\cordova_plugins.js \
@@ -42,8 +44,8 @@ c:\Users\Erik\Dev\Projects\BarbellToolbox\platforms\android\assets\www\plugins \
 c:\Users\Erik\Dev\Projects\BarbellToolbox\platforms\android\assets\www\res \
 c:\Users\Erik\Dev\Projects\BarbellToolbox\platforms\android\assets\www\spec \
 c:\Users\Erik\Dev\Projects\BarbellToolbox\platforms\android\assets\www\spec.html \
+c:\Users\Erik\Dev\Projects\BarbellToolbox\platforms\android\assets\www\css\bootstrap-theme.css \
 c:\Users\Erik\Dev\Projects\BarbellToolbox\platforms\android\assets\www\css\bootstrap.css \
-c:\Users\Erik\Dev\Projects\BarbellToolbox\platforms\android\assets\www\css\bootstrap.min.css \
 c:\Users\Erik\Dev\Projects\BarbellToolbox\platforms\android\assets\www\css\index.css \
 c:\Users\Erik\Dev\Projects\BarbellToolbox\platforms\android\assets\www\img\banner.jpg \
 c:\Users\Erik\Dev\Projects\BarbellToolbox\platforms\android\assets\www\img\logo.png \
